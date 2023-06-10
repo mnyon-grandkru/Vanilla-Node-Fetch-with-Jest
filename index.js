@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const url = 'https://api.apis.guru/v2/list.json'; // Replace with your API endpoint URL
+const url = 'https://api.apis.guru/v2/list.json'; 
 
 fetch(url)
   .then(response => {
